@@ -289,71 +289,14 @@
     }
 
     timer = setInterval(showRemaining, 1000);
-	// Set the date we're counting down to
-		// var date =new Date("Oct 21, 2023 12:00:00");
-		// var countDownDate = date.getTime();
-
-		// // Update the count down every 1 second
-		// var x = setInterval(function() {
-
-		// // Get todays date and time
-		// var now = new Date();
-        // var distance = end - now;
-        // if (distance < 0) {
-
-        //     clearInterval(timer);
-        //     document.getElementById('countdown').innerHTML = 'EXPIRED!';
-
-        //     return;
-        // }
-        // var days = Math.floor(distance / _day);
-        // var hours = Math.floor((distance % _day) / _hour);
-        // var minutes = Math.floor((distance % _hour) / _minute);
-        // var seconds = Math.floor((distance % _minute) / _second);
-
-		// // Display the result in an element with id="demo"
-		// // document.getElementById("demo").innerHTML = days + "Days " + hours + "Hours "
-		// // + minutes + "Minutes " + seconds + "Seconds ";
-
-		// // Display the result in an element with id="demo"
-		// // document.getElementById("month").innerHTML = formatNumber(months) +"<br/> <span style='font-size: 20px;'>Meses</span>";
-		// document.getElementById("days").innerHTML = formatNumber(days) +"<br/> <span style='font-size: 20px;'>Días</span>";
-		// document.getElementById("hours").innerHTML = formatNumber(hours) + "<br/> <span style='font-size: 20px;'>Hrs</span>";
-		// document.getElementById("minutes").innerHTML = formatNumber(minutes) + "<br/> <span style='font-size: 20px;'>Mins</span>";
-		// document.getElementById("seconds").innerHTML = formatNumber(seconds) + "<br/> <span style='font-size: 20px;'>Segs</span>";
-
-		// 	// If the count down is finished, write some text 
-		// 	if (distance < 0) {
-		// 	clearInterval(x);
-		// 	document.getElementById("demo").innerHTML = "The Wedding Ceremony is Over";
-		// 	}
-		// }, 1000);	
-	
+		
 		
 	var bgVideo = function() {
 		$('.player').mb_YTPlayer();
 	};
 
 	
-	// function animacionSobre() {
-	// 	var element = document.getElementById("sobre1");
-	// 	element.classList.add("moved");
-	// 	var element2 = document.getElementById("sobre2");
-	// 	element2.classList.add("moved2");
-	// 	boton.click();
-	// 	setTimeout(cerrarModal, 2000)
-	//   }
-	
-	//   function cerrarModal() {
-	// 	$("#myModal").modal('hide');//ocultamos el modal
-	// 	$('body').removeClass('modal-open');//eliminamos la clase del body para poder hacer scroll
-	// 	$('.modal-backdrop').remove();//eliminamos el backdrop del modal
-	//   }
-	  
-	// let boton = document.getElementById("selloButton")
-    // boton.addEventListener("click", () => {
-	// 	animacionSobre();
-	// });
+
 	
 
 	// Document on load.
@@ -370,11 +313,7 @@
 		inlineSVG();
 		bgVideo();
 	
-		document.addEventListener("DOMContentLoaded", function() {
-			setTimeout(function() {
-				document.querySelector("body").classList.add("loaded");
-			}, 15)
-		  });
+		
 		
 	});
 
