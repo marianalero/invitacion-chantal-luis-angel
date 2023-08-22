@@ -1655,7 +1655,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   background-color: initial;
   background-position: 0 0;
-  color: #BDAA8C;
+  color: #BDAA8C!important;
   border: 2px solid #BDAA8C;
   transform: scale(1.05) translateY(.125rem);
   font-weight: 700;
